@@ -2,19 +2,71 @@
 
 Programming Concepts with Jupyter
 
-## Notes
+## Quick start
+
+- Quick start
+  - Ensure you have the requirements (see below)
+  - Clone this repository
+  - Start the Jupyter server `docker run -p 8888:8888 jdelemar/jupyterlab-dotnet:6`
+    - Copy the token from the Jupyter server output
+  - Open a notebook - `.ipynb` file
+  - In the bottom right of VSCode select `Jupyter Server` to input the server URI (e.g. `http://localhost:8888?token=placeYourTokenHere`)
+  - Run / edit / change the notebook as you see fit
+
+## Requirements
+
+- Requirements
+  - Docker
+  - Jupyterlab with .NET
+  - Visual Studio Code with Microsoft Jupyter extension (ms-toolsai.jupyter)
+
+### Notebooks
+
+#### CSharp
+
+Name | Description
+---|---
+[Map, Reduce, Filter in CSharp](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/CSharp/Filter%2C%20map%2C%20reduce%20-%20Where%2C%20Select%2C%20Aggregate.ipynb) | JavaScript map, reduce, filter == CSharp Where, Select, Aggregate
+
+#### JavaScript
+
+Name | Description
+---|---
+[Maintainable JavaScript with Functional Patterns](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/JavaScript/Maintainable%20JavaScript%20with%20Functional%20Patterns.ipynb)
+
+### Notes
 
 - Notes
   - **TODO**
-    - Add git workflow for this repo
-    - Add table of contents
-    - README for each language/folder
+    - TypeScript examples
+    - CSharp - check if nuget packages work - NewtonSoft
+    - CSharp - programming tips - LINQ
   - Useful commands
     - Command Palette
       - `Notebook: Clear cell outputs`
       - `Notebook: Run all`
 
-### References
+### Workflow
+
+- Workflow
+  - Do not work on the main branch
+  - Work on develop or some other branch
+  - Updating
+    - After updating notebook(s)
+      - Prepare
+        - develop
+          - Ensure all cell outputs have been cleared
+          - Ensure all changes have been committed
+      - Update
+        - main
+          - Switch to the main branch
+          - Remove the `🎨Execute notebook` commit `git reset --hard HEAD^`
+          - Force update main branch `git push --force`
+          - Merge develop into main `git merge develop`
+          - Execute all cell outputs
+          - Create `🎨Execute notebook` commit
+
+#### References
 
 - References
   - [Jupyter Notebooks in a Git Repository](https://mg.readthedocs.io/git-jupyter.html)
