@@ -6,10 +6,13 @@ Programming Concepts with Jupyter
 
 - Notes
   - **TODO**
-    - Recommended VSCode plugins
-  - Command Palette
-    - `Notebook: Clear cell outputs`
-    - `Notebook: Run all`
+    - Add git workflow for this repo
+    - Add table of contents
+    - README for each language/folder
+  - Useful commands
+    - Command Palette
+      - `Notebook: Clear cell outputs`
+      - `Notebook: Run all`
 
 ### References
 

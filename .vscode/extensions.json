@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-toolsai.jupyter",
+    "aaron-bond.better-comments",
+    "nick-rudenko.back-n-forth",
+    "ms-dotnettools.csharp",
+    "streetsidesoftware.code-spell-checker",
+    "eamodio.gitlens",
+    "DavidAnson.vscode-markdownlint"
+  ]
+}
