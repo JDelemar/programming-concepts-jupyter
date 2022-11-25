@@ -6,7 +6,6 @@ Programming Concepts with Jupyter
 
 - Notes
   - **TODO**
-    - Make into repo
     - Recommended VSCode plugins
   - Command Palette
     - `Notebook: Clear cell outputs`
