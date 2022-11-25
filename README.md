@@ -38,9 +38,11 @@ Name | Description
 
 - Notes
   - **TODO**
-    - TypeScript examples
-    - CSharp - check if nuget packages work - NewtonSoft
-    - CSharp - programming tips - LINQ
+    - TypeScript examples - using types
+    - CSharp
+      - check if nuget packages work - NewtonSoft.Json
+      - programming tips - LINQ, AutoMapper
+      - language version differences 6, 7, 8, 9, 10
   - Useful commands
     - Command Palette
       - `Notebook: Clear cell outputs`
