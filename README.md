@@ -10,6 +10,7 @@ Programming Concepts with Jupyter
     - Recommended VSCode plugins
   - Command Palette
     - `Notebook: Clear cell outputs`
+    - `Notebook: Run all`
 
 ### References
 
