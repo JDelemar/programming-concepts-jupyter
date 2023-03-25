@@ -27,7 +27,7 @@ Design Patterns
     - Memento
     - Observer
     - State
-    - Strategy
+    - Strategy - Allows you to define a family of algorithms, encapsulate each one as an object, and make them interchangeable at runtime
     - Template Method
     - Visitor
 

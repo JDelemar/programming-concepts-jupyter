@@ -35,6 +35,12 @@ Name | Description
 ---|---
 [Maintainable JavaScript with Functional Patterns](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/JavaScript/Maintainable%20JavaScript%20with%20Functional%20Patterns.ipynb)
 
+#### TypeScript
+
+Name | Description
+---|---
+[Design Patterns: Strategy Pattern](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Behavioral/Strategy.ipynb) | Strategy Pattern example
+
 ### Notes
 
 - Notes
