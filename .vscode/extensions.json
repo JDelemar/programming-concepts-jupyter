@@ -6,6 +6,7 @@
     "ms-dotnettools.csharp",
     "streetsidesoftware.code-spell-checker",
     "eamodio.gitlens",
-    "DavidAnson.vscode-markdownlint"
+    "DavidAnson.vscode-markdownlint",
+    "bierner.markdown-mermaid"
   ]
 }

@@ -19,6 +19,7 @@ Programming Concepts with Jupyter
   - Docker
   - Jupyterlab with .NET
   - Visual Studio Code with Microsoft Jupyter extension (ms-toolsai.jupyter)
+  - (optional) Markdown Preview Mermaid Support (bierner.markdown-mermaid) for markdown with mermaid
 
 ### Notebooks
 
@@ -43,6 +44,7 @@ Name | Description
       - check if nuget packages work - NewtonSoft.Json
       - programming tips - LINQ, AutoMapper
       - language version differences 6, 7, 8, 9, 10
+    - How to show lines for cells?
   - Useful commands
     - Command Palette
       - `Notebook: Clear cell outputs`
