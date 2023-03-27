@@ -25,7 +25,7 @@ Design Patterns
     - Iterator
     - Mediator
     - Memento
-    - Observer
+    - Observer - Allows a one-to-many communication between objects so that when one object changes state (subject/observable), all its dependents are notified and updated automatically (observers/subscriber)
     - State
     - Strategy - Allows you to define a family of algorithms, encapsulate each one as an object, and make them interchangeable at runtime
     - Template Method
