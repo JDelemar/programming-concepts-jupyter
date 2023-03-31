@@ -40,7 +40,8 @@ Name | Description
 Name | Description
 ---|---
 [Design Patterns: Strategy Pattern](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Behavioral/Strategy.ipynb) | Strategy Pattern examples
-[Design Patterns: Observer Pattern](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Behavioral/Observer.ipynb) | Observer Pattern examples
+[Design Patterns: Observer Pattern](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Observer/Observer.ipynb) | Observer Pattern examples
+[Design Patterns: Decorator](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Decorator/Decorator.ipynb) | Decorator Pattern examples
 
 ### Notes
 

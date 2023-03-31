@@ -15,7 +15,7 @@ Design Patterns
     - Adapter
     - Bridge
     - Composite
-    - Decorator
+    - Decorator - Allows you to dynamically add behaviors or responsibilities to objects without changing their original class structure. The pattern works by wrapping the original object with one or more decorator objects, each of which adds new behavior or functionality to the original object
     - Facade
     - Flyweight
     - Proxy
