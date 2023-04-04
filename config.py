@@ -6,7 +6,7 @@ c = get_config()
 c.NbConvertApp.notebooks = [
   "CSharp/Filter, map, reduce - Where, Select, Aggregate.ipynb",
   "JavaScript/Maintainable JavaScript with Functional Patterns.ipynb",
+  "TypeScript/Design Patterns/Behavioral/Observer.ipynb",
   "TypeScript/Design Patterns/Behavioral/Strategy.ipynb",
-  "TypeScript/Design Patterns/Decorator/Decorator.ipynb",
-  "TypeScript/Design Patterns/Observer/Observer.ipynb",
+  "TypeScript/Design Patterns/Structural/Decorator.ipynb",
 ]
