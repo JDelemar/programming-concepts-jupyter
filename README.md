@@ -53,6 +53,7 @@ Name | Description
       - programming tips - LINQ, AutoMapper
       - language version differences 6, 7, 8, 9, 10
     - How to show lines for cells?
+    - Fix Mermaid not displaying properly in GitHub repo
   - Useful commands
     - Command Palette
       - `Notebook: Clear cell outputs`
