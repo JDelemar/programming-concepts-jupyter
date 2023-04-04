@@ -78,7 +78,7 @@ Name | Description
           - Remove the `🎨Execute notebook` commit `git reset --hard HEAD^`
           - Force update main branch `git push --force`
           - Merge develop into main `git merge develop`
-          - Execute all cell outputs - can use `./nbconvert`
+          - Execute all cell outputs - can use `./nbconvert.sh`
           - Create `🎨Execute notebook` commit
 
 #### References
