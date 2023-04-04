@@ -1,19 +1,14 @@
-import os
 import argparse
+import glob
+import os
 
 # create an argument parser to parse command-line arguments
 parser = argparse.ArgumentParser()
 parser.add_argument('--clear', action='store_true', help='clear notebook outputs')
 args = parser.parse_args()
 
-# list of notebook filenames to execute
-notebook_filenames = [
-  'CSharp/Filter, map, reduce - Where, Select, Aggregate.ipynb',
-  'JavaScript/Maintainable JavaScript with Functional Patterns.ipynb',
-  'TypeScript/Design Patterns/Behavioral/Observer.ipynb',
-  'TypeScript/Design Patterns/Behavioral/Strategy.ipynb',
-  'TypeScript/Design Patterns/Structural/Decorator.ipynb',
-  ]
+# find all notebook files in current and subdirectories
+notebook_filenames = glob.glob('**/*.ipynb', recursive=True)
 
 # loop through each notebook filename
 for filename in notebook_filenames:
