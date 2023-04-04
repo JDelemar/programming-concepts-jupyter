@@ -6,8 +6,8 @@ Design Patterns
 
 - Types
   - Creational patterns: Focus on object creation mechanisms
-    - Factory method
-    - Abstract Factory
+    - Factory Method - Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. In other words, it delegates the responsibility of object creation to its subclasses, rather than creating objects directly within the superclass.
+    - Abstract Factory - Provides an interface for creating families of related or dependent objects without specifying their concrete classes. It is similar to the Factory Method pattern in that it provides a way to encapsulate the creation of objects, but it is used when there are multiple types of related objects that need to be created.
     - Builder
     - Prototype
     - Singleton

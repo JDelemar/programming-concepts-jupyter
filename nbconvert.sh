@@ -1,5 +1,5 @@
 #!/bin/bash
-# nbconvert-run.sh
+# nbconvert.sh
 # Run all notebooks in this project
 
 CLEAR=""
