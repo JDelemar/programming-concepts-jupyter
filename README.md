@@ -39,6 +39,7 @@ Name | Description
 
 Name | Description
 ---|---
+[Design Patterns: Abstract Factory](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Creational/Abstract%20Factory.ipynb) | Abstract Factory examples
 [Design Patterns: Factory Method](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Creational/Factory%20Method.ipynb) | Factory Method examples
 [Design Patterns: Decorator](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Structural/Decorator.ipynb) | Decorator Pattern examples
 [Design Patterns: Observer Pattern](https://github.com/JDelemar/programming-concepts-jupyter/blob/main/TypeScript/Design%20Patterns/Behavioral/Observer.ipynb) | Observer Pattern examples
