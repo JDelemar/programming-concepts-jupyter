@@ -1,6 +1,7 @@
 import argparse
 import glob
 import os
+import subprocess
 
 # create an argument parser to parse command-line arguments
 parser = argparse.ArgumentParser()
@@ -20,3 +21,6 @@ for filename in notebook_filenames:
     # execute the command in the system shell
     # print(command)
     os.system(command)
+
+    if not args.clear:
+      subprocess.run(["python", "save_mermaid_images.py", filename])
